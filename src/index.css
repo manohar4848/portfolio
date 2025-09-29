@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animate-fade-in {
+    animation: fadeIn 1s ease-out;
+  }
+
+  .animate-fade-in-delay {
+    animation: fadeIn 1s ease-out 0.3s both;
+  }
+
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 1s ease-out 0.6s both;
+  }
+
+  .animate-fade-in-delay-3 {
+    animation: fadeIn 1s ease-out 0.9s both;
+  }
+
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #606060;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradient Text for "I'm" */
+.text-gradient-im {
+  background: linear-gradient(to right, #8d1aff, #03ea0a); /* Green gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Gradient Text for "Manohar Bokka" */
+.text-gradient-name {
+  background: linear-gradient(to right, #4f46e5, #20f124); /* Purple gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.text-blue-500 {
+  color: #3b82f6;
+}
+.text-green-500 {
+  color: #10b981;
+}
+.text-yellow-500 {
+  color: #facc15;
+}
+.text-purple-500 {
+  color: #8b5cf6;
+}
+
+
+@keyframes textGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-text-glow {
+  background-size: 200% 200%;
+  animation: textGlow 4s ease infinite;
+}
+
+
