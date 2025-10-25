@@ -42,11 +42,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-bold text-white">Get in Touch</h3>
             <div className="space-y-2">
-              <p className="text-gray-400">Email: bmanohar178@gmail.com</p>
+              <p className="text-gray-400">Email: 2200031527cseh@gmail.com</p>
               <p className="text-gray-400">Location: Vijayawada, India</p>
               <div className="flex space-x-4 mt-4">
                 <a
-                  href="https://github.com/manohar4848"
+                  href="https://github.com/ManoharBokka0208/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-all duration-300 hover:scale-125"

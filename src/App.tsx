@@ -23,10 +23,6 @@ import Navigation from './components/Navigation';
 import Section from './components/Section';
 import TypeWriter from './components/TypeWriter';
 
-import profileImg from './images/profile1.png';
-
-
-
 
 function App() {
   return (
@@ -85,13 +81,13 @@ function App() {
             <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
               <BookOpen className="w-8 h-8 mb-3 mx-auto text-blue-400" />
               <h3 className="font-semibold mb-2 text-lg">Intermediate</h3>
-              <p className="text-sm text-gray-400">Sri chaitanya Junior College</p>
+              <p className="text-sm text-gray-400">Sri Sri Chaitanya Junior College</p>
               <p className="text-xs text-gray-500">2020-2022</p>
             </div>
             <div className="bg-gray-800/30 backdrop-blur-sm p-6 rounded-lg hover:bg-gray-800/50 transition-all duration-300">
               <School className="w-8 h-8 mb-3 mx-auto text-blue-400" />
               <h3 className="font-semibold mb-2 text-lg">Schooling</h3>
-              <p className="text-sm text-gray-400">sri chaitanya High School</p>
+              <p className="text-sm text-gray-400">Sri Chaitanya Junior School</p>
               <p className="text-xs text-gray-500">2019-2020</p>
             </div>
           </div>
@@ -105,13 +101,11 @@ function App() {
     <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center px-6 md:px-12">
       {/* Image Section */}
       <div className="flex justify-center relative">
-      <img
-  src={profileImg}
-  alt="Profile"
-  className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-xl border-4 border-yellow-500 transform hover:scale-105 transition-transform duration-300"
-/>
-
-
+        <img
+          src="https://media-hosting.imagekit.io//2cc3930c328d4e7f/profile.png?Expires=1831977254&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=qK-dUzH7O1lAT8hSReLBFGl1brYwYz-bDb88hIS4zWGgPlSUcTqMqO4yqns3an~lFj7A2ziEgIR3f7CmLl2prolS~gRJ1BYEaES2dgQZ8VR-fPZdNppothuiau4xRnVbyPZOln4OfzPJ~vSS2RTyWJodHqMREPTBDXHHoAa9fl8nQcMyOLCB2-6dd2Kfv5zUz4gBdSV~TOSVkdYLCMq09xVwHvcawdQrCA-IeQHIxUyBwZ5wxnwvPtVvmm4jZwIPaJ~v-80U5OfF9qaEy7J77xxp1A4Urb2ed-f1I7t6LkZr8dsZAFoj3IK6yWImc9KtTeQsw0BxoGIbx49kh9vFYg__"
+          alt="Profile"
+          className="w-80 h-80 md:w-96 md:h-96 object-cover rounded-full shadow-xl border-4 border-yellow-500 transform hover:scale-105 transition-transform duration-300"
+        />
         <div className="absolute -bottom-4 -right-4 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-full w-20 h-20 flex items-center justify-center text-white font-semibold text-xl shadow-lg animate-bounce">
           Hello!
         </div>
@@ -249,13 +243,13 @@ function App() {
         title: 'Red Hat Certified Enterprise Application Developer',
         issueDate: 'September 23, 2024',
         expiryDate: 'September 23, 2027',
-        link: 'https://www.credly.com/badges/95278ee0-3f78-4b37-9a61-7c32159df085/public_url',
+        link: 'https://www.credly.com/badges/675b0c0e-651b-4022-a414-83835e99c0da/',
       },
       {
         title: 'Automation Anywhere Certified Essentials RPA Professional',
         issueDate: 'September 27, 2024',
         expiryDate: null,
-        link: 'https://certificates.automationanywhere.com/97230e91-e016-4339-9852-56b88ba71851',
+        link: 'https://certificates.automationanywhere.com/5f394fa5-eeaf-4164-afcf-e055b0fa6caf##gs.fnkyiw',
       },
       {
         title: 'Oracle Cloud Infrastructure 2024 Generative AI Certified Professional',
@@ -264,10 +258,10 @@ function App() {
         link: 'https://drive.google.com/file/d/1zVPCF2gE4O-pVtZCjTa-q_mQqmODFDNP/view',
       },
       {
-        title: 'AWS Certified Cloud Practitioner',
+        title: 'SQL (Basic)',
         issueDate: 'May 17, 2024',
         expiryDate: null,
-        link: 'https://www.credly.com/badges/3f7af239-6914-4ada-9c4a-57d1324ee45c/public_url',
+        link: 'https://www.hackerrank.com/certificates/a76f39f2a4b5',
       },
     ].map((cert, index) => (
       <div
